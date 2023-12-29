@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        border-style: double;
+      }
+
+      thead {
+        border-style: double;
+        border-collapse: collapse;
+        background-color: aqua;
+      }
+
+      tbody {
+        border-style: double;
+        border-collapse: collapse;
+      }
+
+      p {
+        font-size: 10px;
+      }
+    </style>
+    <table>
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Barang</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Barang A</td>
+          <td>10000</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Barang B</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>TV</td>
+          <td>30000</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>Inputan User</h1>
+    <form>
+      <label for="kode-barang">Kode Barang:</label>
+      <input type="text" id="kode-barang" name="kode-barang" /><br />
+
+      <label for="jumlah-barang">Jumlah Barang:</label>
+      <input type="number" id="jumlah-barang" name="jumlah-barang" /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
